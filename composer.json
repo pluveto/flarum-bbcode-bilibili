@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "flarum/core": ">=v0.1.0-beta.10.9"
+        "flarum/core": "^0.1.0-beta.10.9"
     },
     "autoload": {
         "psr-4": {"Pluveto\\bilibili\\": "src/"}
