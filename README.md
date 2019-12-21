@@ -4,6 +4,6 @@ Insert Bilibili video to flarum
 ## Usage
 
 ```
-composer pluveto/flarum-bbcode-bilibili
+composer require pluveto/flarum-bbcode-bilibili
 
 ```
