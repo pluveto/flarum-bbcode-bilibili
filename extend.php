@@ -2,6 +2,10 @@
 /*
  * Bilibili
  */
+
+namespace Pluveto\bilibili;
+
+
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
 return [
@@ -13,3 +17,4 @@ return [
             );
         })
 ];
+
