@@ -1,0 +1,28 @@
+{
+    "name": "pluveto/flarum-bbcode-bilibili",
+    "description": "Bilibili BBcode Add-on.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhang Zijing",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
+    },
+    "autoload": {
+        "psr-4": {"Pluveto\\bilibili\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Bilibili BBcode",
+            "icon": {
+                "name": "fas fa-tv",
+                "backgroundColor": "#f6a",
+                "color": "#000"
+            }
+        }
+    }
+}
