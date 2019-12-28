@@ -1,10 +1,9 @@
 <?php
-/*
- * Bilibili
- */
-
-namespace Pluveto\bilibili;
-
+/*                                                                                   
+ * Bilibili                                                                          
+ */                                                                                  
+                                                                                     namespace Pluveto\bilibili;                                                          
+ 
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
@@ -17,4 +16,3 @@ return [
             );
         })
 ];
-
